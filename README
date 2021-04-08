@@ -1,0 +1,20 @@
+LibMemC is a small C library which
+provides routines for allocating an
+aligned memory and implementing
+an arena, or region-based memory
+management.
+
+The library's file is `libmemc.a`
+and its header is `memc_export.h`.
+This header file's comments can serve as a short introduction
+to the library's API. File `test.c` is a demo file which
+demonstrates how to use each function
+from the API. To see how to compile your
+code for use with the library, look at
+script `maketest.sh`
+
+To compile the library, you can use either
+the provided `Makefile` or script `makelib.sh`.
+To compile the demo file , you can use
+script `maketest.sh`. Script `runtest.sh`
+invokes the compiled demo program thru valgrind.
